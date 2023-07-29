@@ -19,7 +19,8 @@ body, h1, h2, h3, p, ul, li {
   
   /* ロゴ画像のスタイル */
   header img {
-    max-width: 100px; /* ロゴ画像の最大幅 */
+    max-height: 50px; /* ロゴ画像の最大高さ */
+    max-width: 100%; /* ロゴ画像の最大幅 */
   }
   
   /* ナビゲーションメニューのスタイル */
@@ -48,8 +49,8 @@ body, h1, h2, h3, p, ul, li {
   /* 著作権表示のスタイル */
   footer {
     text-align: left; /* テキストを左寄せにする */
-    padding-left: 10px; /* テキストとヘッダーの間隔 */
-    position: fixed; /* 著作権を画面下部に固定 */
+    padding-left: 20px; /* テキストとヘッダーの間隔 */
+    position: absolute; /* 著作権を画面下部に固定 */
     bottom: 0; /* 画面下部に配置 */
     left: 0; /* ヘッダーの左端に配置 */
     width: 100%; /* テキストの幅を100%に設定 */
@@ -59,6 +60,6 @@ body, h1, h2, h3, p, ul, li {
   
   /* コンテンツのスタイル */
   .content {
-    padding-bottom: 60px; /* ヘッダーが重ならないようにコンテンツの下部に余白を追加 */
+    padding-top: 80px; /* ヘッダーの高さだけコンテンツが下にずれないように余白を追加 */
   }
   
