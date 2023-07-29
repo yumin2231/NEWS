@@ -1,0 +1,50 @@
+/* リセットCSS（ブラウザのデフォルトスタイルをリセット） */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* ヘッダーのスタイル */
+  header {
+    background-color: #333; /* ヘッダーの背景色 */
+    color: #fff; /* ヘッダーのテキスト色 */
+    padding: 20px; /* ヘッダー内部の余白 */
+    position: fixed; /* ヘッダーを画面下部に固定 */
+    bottom: 0; /* 画面下部に配置 */
+    width: 100%; /* ヘッダーの幅を100%に設定 */
+  }
+  
+  /* ナビゲーションメニューのスタイル */
+  nav ul {
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block; /* リスト項目を横並びに配置 */
+    margin-right: 20px; /* リスト項目の間隔 */
+  }
+  
+  nav li a {
+    color: #fff; /* リンクのテキスト色 */
+    text-decoration: none; /* 下線を削除 */
+  }
+  
+  nav li a:hover {
+    text-decoration: underline; /* マウスオーバー時に下線を表示 */
+  }
+  
+  /* コンテンツのスタイル */
+  .content {
+    padding-bottom: 60px; /* ヘッダーが重ならないようにコンテンツの下部に余白を追加 */
+  }
+
+/* ヘッダーのスタイル */
+header {
+    background-color: #333; /* ヘッダーの背景色 */
+    color: #fff; /* ヘッダーのテキスト色 */
+    padding: 20px; /* ヘッダー内部の余白 */
+    position: fixed; /* ヘッダーを画面下部に固定 */
+    bottom: 0; /* 画面下部に配置 */
+    width: 100%; /* ヘッダーの幅を100%に設定 */
+  }
+    
